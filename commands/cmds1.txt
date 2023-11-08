@@ -1,0 +1,47 @@
+ls-list all folder in current directory
+cd-change directory
+pwd-present working directory
+cat file1.txt-to read content in file1
+touch file1.txt-create file1
+mkdir dir1-to make new directory
+
+touch file(1..5).txt-create 5 files with file1,file2...name
+rm file*- delete all files who have starting with file
+
+cd .. -if we want to go to previous folder/directory 
+
+
+*(astric )-means all in linux
+rm *.py-this will remove all files with .py extension
+
+cp sourcelocation destinationlocation
+cp file1.txt newfolder
+
+mv sourcelocation destinationlocation
+to move folder file from old to new location
+
+this will cut all copyfolder and create new folder if oldfolderbackup name if it not exist and paste all thing there
+mv copyfolder oldfolderbackup.txt
+
+history-show all the commands used till now
+
+ping -c 2 8.8.8.8-to check if we are connected to internet
+
+
+wget urlink- to downolad sometihing from internet
+
+curl -curl is similar to wget but it has more feature like uploading data unlike wget which can only read 
+
+
+sudo(superuser)-it is used when we want to provide more previleges to user i.e superuser
+
+sudo apt update-it is used to update ,it will not work if we do not add sudo
+sudo su-to change user to rootuser
+
+
+service docker status-to check status of application on your machine
+
+systemctl start docker-this will turn on docker automatically every time we start ec2 machine
+
+echo hello world-to print or write someting in linux file
+echo "hi hello"> newfile.txt
